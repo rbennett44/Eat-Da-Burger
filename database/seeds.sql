@@ -1,0 +1,3 @@
+-- INSERT INTO hamburgers (burger_name, devoured) VALUES ('Cheese Burger', FALSE);
+-- INSERT INTO hamburgers (burger_name, devoured) VALUES ('Big Mac', FALSE);
+-- INSERT INTO hamburgers (burger_name, devoured) VALUES ('American Burger', FALSE);
