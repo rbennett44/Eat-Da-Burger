@@ -17,7 +17,8 @@ app.engine('handlebars',exphbs({
 }));
 app.set('view engine','handlebars');
 
-var routes = require('./controllers/routes.js');
+var routes = require('./controllers/routes');
 app.use('/',routes);
+
 
 app.listen(PORT);

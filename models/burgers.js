@@ -1,4 +1,4 @@
-var orm = require('../config/orm.js');
+var orm = require('../config/orm');
 
 var burger = {
     all: function(cb) {
@@ -12,7 +12,7 @@ var burger = {
     },
 
     create: function(name,cb) {
-        orm.create('burgers', name, cb);
+        orm.create('food', name, cb);
     }
 }
 
